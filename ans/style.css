@@ -1,0 +1,66 @@
+
+.card-f{
+    display: grid;
+    grid-template-columns: 1fr 90px;
+    justify-content: center;
+}
+.second{
+    background-color: #f1f3f5;
+    height: 200px;
+    margin-bottom: 50px;
+    padding:  80px 150px 80px 150px;
+    
+}
+.third{
+    padding: 0 150px;
+    
+}
+.header{
+    background-color: #f1f3f5;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.result{
+    margin: 30px 0;
+    width: 400px;
+    background-color: #f1f3f5;
+    padding: 30px;
+    position: relative;
+}
+.badge-final{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.completion{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 30px;
+    margin-top: 50px !important;
+    margin: auto;
+}
+.thanks{
+    margin-top: 10px;
+    text-align: center;
+}
+.row-grid{
+    margin: auto;
+}
+.card-flex{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+
+
+  /* @media only screen and (max-width: 576px) {
+    #myFirstDialog {
+      width: 100%;
+    }
+} */

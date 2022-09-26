@@ -1,0 +1,58 @@
+body{
+    background-color: #f1f3f5 ;
+}
+.card{
+    padding: 10px;
+    position: relative;
+}
+.card-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.gender-flex{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.card-f{
+    display: grid;
+    grid-template-columns: 1fr 90px;
+    justify-content: center;
+    margin-bottom: 70px;
+    box-shadow: 1px 1px 2px;
+}
+ul{
+    list-style: none;
+}
+.image{
+    justify-self: center;
+}
+.form-grid{
+    display: grid;
+    grid-template-columns: 180px 1fr 1fr;
+    justify-content: center;
+    gap: 20px;
+}
+.btn-index{
+    position: absolute;
+    right: 165px;
+    margin-top: 10px;
+}
+.card-b{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 576px) {
+}
+.startTest{
+    margin-top: 10px;
+    text-align-last: right;
+}
+.slider:hover {
+    background-color: rgb(165, 158, 158);
+}
+.slider{
+    width: 100% !important;
+}
